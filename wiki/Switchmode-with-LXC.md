@@ -73,7 +73,7 @@ Check the IP addresses assigned to the eth0 interfaces of both containers (e.g. 
 
 # Stand alone Switchmode 
 
-Although switchmode was intended to bind to multiple virtual network interface of the guest machine, IPOP switchmode can also run by itself providing layer 2 virutal network environment to the host machine. 
+Although switchmode was intended to bind to multiple virtual network interface of the guest machine, IPOP switchmode can also run by itself providing layer 2 virtual network environment to the host machine. 
 By simply setting below fields, and run IPOP without attaching to the bridge.
 ```
    "switchmode": 1
